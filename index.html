@@ -24,6 +24,7 @@
     body,
     .sticky-footer-wrapper {
       min-height: 100vh;
+      background-color:burlywood;
     }
   </style>
 
@@ -44,10 +45,6 @@
         <h2>String Comparer</h2>
         <hr>
 
-        <fieldset class="mt-4">
-          <label for="guest">Enter your name (2 to 40 characters):</label>
-          <input id="guest" type="text" minlength="2" maxlength="40" value="prudhvi">
-        </fieldset>
 
         <fieldset class="mt-4">
           <label for="firstString">Enter first String:</label>
@@ -70,7 +67,7 @@
       <div class="col-md-5 mb-4">
         <h2>Click the Button</h2>
         <hr>
-        <button id="addButton" class="btn btn-primary">Calculate</button>
+        <button id="addButton" class="btn btn-primary" style="border-radius:1em">Calculate</button>
         <hr>
         <p id="result"></p>
 
